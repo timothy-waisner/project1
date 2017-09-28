@@ -1,15 +1,49 @@
 body {
-    background-color: skyblue
-}
-.header {
-    text-align: right;
-}
-.logo {
-    text-align: left;
+    background-color: skyblue;
 }
 
-.main-content-image {
-    text-align: center;
-    width: 500px;
-    height: 500px:
+.page {
+   margin:0 auto; /* this will center the page */
+   width:1250px; /*  use your width here */
+}
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header h1 {
+  text-align: right;
+  top: 18px;
+  left: 10px;
+}
+.header h2 {
+  text-align: right;
+  top: 18px;
+  left: 10px;
+  padding-bottom: 25px;
+}
+
+
+.bar {
+    border-bottom: thick solid #ff0000;
+    
+}
+
+#Cool-Stuff {
+    list-style-type: none; 
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.main-image {
+    text-align: right;
+}
+
+
+img.main {
+  width:1250px;
+  height:750px;
 }
