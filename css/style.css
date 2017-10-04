@@ -46,12 +46,16 @@ img.main {
 }
 
 .My Work{
-    text-align: left;  
+    text-align: left;
+   
 }
 
 .heading {
     font-size: 200%;
     word-spacing: 10px;
+    font-weight: bold;
+    font-family: "Anton";
+    letter-spacing: 5px;
 }
 
 #Cool-Stuff { 
@@ -60,6 +64,18 @@ img.main {
     justify-content: space-between;
     padding-top: 50px;
 }
+
+.caption {
+    display:block;
+    text-align: center;
+    font-family: "Anton";
+    font-size: 150%;
+    
+  
+    
+    
+}
+
 .img img {
     position: relative;
     float: left;
