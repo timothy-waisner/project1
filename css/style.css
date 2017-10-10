@@ -72,6 +72,14 @@ img.main {
     font-size: 150%;
 }
 
+.linkz {
+    display:block;
+    text-align: center;
+    font-family: "Anton";
+    font-size: 100%;
+}
+
+
 .img img {
     position: relative;
     float: left;
