@@ -50,25 +50,29 @@
         <div id="Cool-Stuff">
             
             <div class="img">
-                <a href="#" id="pop">
-                <img id="imageresource" src="images/monkey1.jpg" >
+                <a href="#" id="pop1">
+                <img id="image1" src="images/monkey1.jpg" >
                 </a>
                 <p class="caption">First</p><a class="linkz" href="https://www.google.com">www.google.com</a>
                 </div>
-            </a>
+      
                 
             <div class="img">
                 
-                <img src="images/monkey2.jpg"><p class="caption">Second</p><a class="linkz" href="https://www.google.com">www.google.com</a>
+                <a href="#" id="pop2">
+                <img id="image2" src="images/monkey2.jpg" >
+                </a><p class="caption">Second</p><a class="linkz" href="https://www.google.com">www.google.com</a>
                 </div>
             
             <div class="img">
-                <img src="images/monkey3.jpg"><p class="caption">Third</p><a class="linkz" href="https://www.google.com">www.google.com</a>
+                 <a href="#" id="pop3">
+                <img id="image3" src="images/monkey3.jpg" >
+                </a><p class="caption">Third</p><a class="linkz" href="https://www.google.com">www.google.com</a>
                 </div>
                 </div>
             
             <!-- Creates the bootstrap modal where the image will appear -->
-<div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="firstmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -76,7 +80,27 @@
         <h4 class="modal-title" id="myModalLabel">Image preview</h4>
       </div>
       <div class="modal-body">
-        <img src="" id="imagepreview" style="width: 500px; height: 600px;" >
+        <img src="images/monkey1.jpg" id="imagepreview" style="width: 550px; height: 500px;" >
+      </div>
+        <div class="description">
+            <p> filler text blah blah blah blah</p>
+            
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+      </div>
+  </div>
+</div>
+          <div class="modal fade" id="secondmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/monkey2.jpg" id="imagepreview" style="width: 550px; height: 500px;" >
       </div>
         <div class="description">
             <p>lorem ipsum filler text blah blah blah blah</p>
@@ -88,9 +112,27 @@
       </div>
   </div>
 </div>
-           
       
-   
+      <div class="modal fade" id="thirdmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+      </div>
+      <div class="modal-body">
+        <img src="images/monkey3.jpg" id="imagepreview" style="width: 550px; height: 500px;" >
+      </div>
+        <div class="description">
+            <p>um filler text blah blah blah blah</p>
+            
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+      </div>
+  </div>
+</div>
        
         
     <script src="js/jquery.min.js"></script>    
