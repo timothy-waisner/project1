@@ -1,5 +1,5 @@
 body {
-    background-color: skyblue;
+    background-color: none;
   
 }
 
@@ -78,6 +78,11 @@ img.main {
     font-family: "Anton";
     font-size: 100%;
 }
+
+.modal-title {
+    text-align: center;
+}
+
 .description{
     text-align: center;
     font-family: "Anton";
@@ -90,7 +95,7 @@ img.main {
     float: left;
     width:  250px;
     height: 250px;
-   border:2.5px solid blue;
+   border:2.5px solid red;
 }
 
 
